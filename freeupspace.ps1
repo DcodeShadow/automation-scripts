@@ -7,7 +7,7 @@
 # - Only apply changes when -ApplyChanges is used
 
 param(
-    [int]$DaysOld = 1,
+    [int]$DaysOld = 30,
     [switch]$ApplyChanges
 )
 
